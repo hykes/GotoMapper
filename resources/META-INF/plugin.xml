@@ -5,13 +5,11 @@
   <vendor email="hehaiyangwork@gmail.com" url="http://github.com/hykes">Hykes</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      This plugin helps you to find sqlId in mapper file .
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+     first version .
     ]]>
   </change-notes>
 
