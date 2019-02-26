@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>com.github.hykes.plugins.gotomapper</id>
+  <id>com.github.hykes.gotomapper</id>
   <name>GotoMapper</name>
   <version>1.0</version>
   <vendor email="hehaiyangwork@gmail.com" url="http://github.com/hykes">Hykes</vendor>
@@ -28,7 +28,11 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="GotoMapper" class="com.github.hykes.plugin.GotoMapperAction" text="GotoMapper">
+    <group id="MyPlugin.SampleMenu" text="Greeting" description="Greeting menu">
+      <add-to-group group-id="MainMenu" anchor="last"/>
+      <action id="Myplugin.Textboxes" class="com.github.hykes.HelloAction" text="Hello" description="Says hello"/>
+    </group>
+    <action id="GotoMapper" class="com.github.hykes.GotoMapperAction" text="GotoMapper">
       <keyboard-shortcut keymap="$default" first-keystroke="shift control X"/>
     </action>
   </actions>

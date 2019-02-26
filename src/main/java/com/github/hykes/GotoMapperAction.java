@@ -1,4 +1,4 @@
-package com.github.hykes.plugin;
+package com.github.hykes;
 
 import com.intellij.icons.AllIcons;
 import com.intellij.openapi.actionSystem.AnAction;

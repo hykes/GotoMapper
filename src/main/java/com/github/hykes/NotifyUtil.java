@@ -1,4 +1,4 @@
-package com.github.hykes.plugin;
+package com.github.hykes;
 
 import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationDisplayType;
